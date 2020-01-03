@@ -1,5 +1,5 @@
 {
-  "name": "graphql-query-utils",
+  "name": "graphql-client-utils",
   "version": "1.0.1",
   "description": "Utilities for generating GraphQL queries",
   "main": "lib/index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NathanRSmith/graphql-query-utils.git"
+    "url": "git+https://github.com/NathanRSmith/graphql-client-utils.git"
   },
   "author": "Nathan Smith <nathanrandal@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NathanRSmith/graphql-query-utils/issues"
+    "url": "https://github.com/NathanRSmith/graphql-client-utils/issues"
   },
-  "homepage": "https://github.com/NathanRSmith/graphql-query-utils#readme",
+  "homepage": "https://github.com/NathanRSmith/graphql-client-utils#readme",
   "dependencies": {
     "lodash": "^4.17.15"
   },

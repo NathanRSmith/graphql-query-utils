@@ -1,4 +1,4 @@
-# GraphQL-Query-Utils
+# GraphQL-Client-Utils
 
 This is a small collection of utilities for generating GraphQL queries:
 
@@ -143,8 +143,8 @@ It is useful to combine `renderQuery` and `fieldsToQuery` in the following manne
 # Development
 
 ```
-docker build -t graphql-query-utils .
-docker run --rm -it -v `pwd`:/opt/graphq-query-utils -v /opt/graphq-query-utils/node_modules graphql-query-utils
+docker build -t graphql-client-utils .
+docker run --rm -it -v `pwd`:/opt/graphq-query-utils -v /opt/graphq-query-utils/node_modules graphql-client-utils
 npm run test
 
 npm version x.y.z -m 'release notes'
