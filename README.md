@@ -129,7 +129,6 @@ It is useful to combine `renderQuery` and `fieldsToQuery` in the following manne
 
 ```
 > const fields = ['b.c', 'b.d', 'e'];
-undefined
 > const obj = {
   a: _.extend(
     {_: {arg1: 'foo', arg2: 'bar'}},
