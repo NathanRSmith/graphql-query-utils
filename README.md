@@ -4,7 +4,7 @@ This is a small collection of utilities for generating GraphQL queries:
 
 *  `renderQuery`: Renders a GraphQL query from a structured query object
 *  `fieldsToQuery`: Converts a list of dot-syntax nested fields or a list of lists of nested fields to a structured query projection
-*  `pruneUndefined`: Recursively removes any keys that have a value "undefined"
+*  `pruneUndefined`: Recursively removes any keys that have a value `undefined`
 
 # Render-Query
 
