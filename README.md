@@ -6,6 +6,12 @@ This is a small collection of utilities for generating GraphQL queries:
 *  `fieldsToQuery`: Converts a list of dot-syntax nested fields or a list of lists of nested fields to a structured query projection
 *  `pruneUndefined`: Recursively removes any keys that have a value `undefined`
 
+```
+npm install graphql-client-utils
+
+const graphqlUtils = require('graphql-client-utils')
+```
+
 # Render-Query
 
 Generates a GraphQL query from a structured JSON object. Support field projection, arguments & aliases.
@@ -144,7 +150,7 @@ It is useful to combine `renderQuery` and `fieldsToQuery` in the following manne
 
 ```
 docker build -t graphql-client-utils .
-docker run --rm -it -v `pwd`:/opt/graphq-query-utils -v /opt/graphq-query-utils/node_modules graphql-client-utils
+docker run --rm -it -v `pwd`:/opt/graphql-client-utils -v /opt/graphql-client-utils/node_modules graphql-client-utils
 npm run test
 
 npm version x.y.z -m 'release notes'
