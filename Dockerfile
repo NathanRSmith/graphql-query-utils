@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:18
 MAINTAINER Nathan Smith <nathanrandal@gmail.com>
 
 WORKDIR /opt/graphql-client-utils
